@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 10px;
+}
+.blog-content{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.image-content{
+    padding: 10px;
+    margin-bottom: 5px;    
+}
+.image-content img{
+    display: block;
+    width: 600px;
+    object-fit: cover;
+}
+
+.trivia-content{
+    padding: 10px;
+}
+.trivia-content ol{
+    list-style:inside;
+    list-style-type: decimal;
+}
+.trivia-content ol li{
+    line-height: 1.5rem;
+}
+
+.image-content h1,
+.blog-content h1,
+.trivia-content h1{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid black;
+}
+.image-content img,
+.blog-content p{
+    margin-bottom: 0.5rem;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color:black;
+}
